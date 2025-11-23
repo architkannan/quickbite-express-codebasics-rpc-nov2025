@@ -4,7 +4,7 @@
 This project was created as part of the  
 [**Codebasics Resume Project Challenge**](https://codebasics.io/challenges/codebasics-resume-project-challenge/23) (2025).
 
-[**Live Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiOGNiMjFjZTgtMTc3ZS00MjQ2LTgwNjYtZTNlMTkzOTE0MjdmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)  
+[**Live Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiZGQ2ZmU0YTMtOTk3My00NjVmLThlZjctOGYyOGE1ZGZiYmZlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)  
 [**Presentation Video**](YOUR_LINK_HERE)
 
 ---
@@ -86,6 +86,15 @@ A Power BI dashboard was designed to walk leadership through the entire story â€
 - Power BI (DAX, bookmarks, field parameters, word cloud visual)  
 - Power Query  
 - DAX measures & segmentation logic  
+
+---
+
+### Dashboard
+
+ðŸš€ [**Live Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiZGQ2ZmU0YTMtOTk3My00NjVmLThlZjctOGYyOGE1ZGZiYmZlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+
+
+![QuickBite Express Dashboard](https://github.com/architkannan/quickbite-express-codebasics-rpc-nov2025/blob/main/QuickBite.gif)
 
 ---
 
