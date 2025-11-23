@@ -1,128 +1,196 @@
-# From Shock to Strategy: The Data Behind Customer Loss + Blueprint for Recovery   
-***A Power BI project to analyze the impact of a demand crisis on customer behavior, delivery performance, and revenue — and design a recovery framework using customer segmentation and re-acquisition insights.***
+# Crisis to Recovery: A Data-Led Strategy for QuickBite’s Post-Crisis Recovery  
+***A Power BI project diagnosing a platform-wide breakdown and designing a data-driven recovery strategy for a food delivery startup.***
 
-This project was my submission for the **Codebasics Resume Project Challenge** for July 2025.
+This project was created as part of the  
+[**Codebasics Resume Project Challenge**](https://codebasics.io/challenges/codebasics-resume-project-challenge/23) (2025).
 
-**Live Dashboard**  
-
-
-
----
-
-## ❗The Problem
-A mid-sized online food delivery platform faced a severe demand shock between **June and September 2025**, leading to:
-
-- A **71% drop** in gross order value  
-- A **44% decline** in customer ratings (from 4.5 to 2.5)  
-- A **62% reduction** in monthly transacting users  
-
-The business needed answers on:
-
-- What triggered the collapse — customers, partners, or delivery operations?  
-- Which customers could be recovered versus lost permanently?  
-- How to prioritize re-acquisition and rebuild loyalty efficiently?  
-
-Decision-making was challenged by fragmented datasets across orders, customer sentiment, and delivery logs.
+[**Live Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiOGNiMjFjZTgtMTc3ZS00MjQ2LTgwNjYtZTNlMTkzOTE0MjdmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)  
+[**Presentation Video**](YOUR_LINK_HERE)
 
 ---
 
-## 💡 How to Explore this Project
-Scroll through this README for the full problem-to-solution walkthrough.
+## ❗ The Problem
 
-If you’d like to see the final output directly, head to the **Dashboard & Insights** section.
+In June 2025, **QuickBite Express**, a Bengaluru-based food delivery startup, was hit by a *dual crisis*:
+1. A viral **food-safety incident** at partner restaurants  
+2. A **week-long monsoon-driven delivery outage**
+
+The fallout was immediate:
+
+- Fulfilled orders **collapsed by ~71%**  
+- Customer ratings fell from **4.5 → 2.5**  
+- Loyal & high-value customers disengaged almost entirely  
+- Partner restaurants shifted activity to competitors  
+- CAC surged as organic acquisition dried up  
+
+Management needed a **single source of truth** to understand:
+- What failed  
+- How customers reacted  
+- Which cities and segments to prioritize  
+- What operational fixes were essential  
+- How to rebuild trust and reactivate demand  
 
 ---
 
 ## 📝 Overview
 
-This project dissects the **FoodTech crisis period (Jan–Sep 2025)** to identify:
+This Power BI project explores four core dimensions of the crisis:
 
-1. **Demand & Revenue Shifts** — Pre- vs post-crisis comparisons across order value, frequency, and customer base.  
-2. **Customer Attrition Patterns** — Loyalty, value tier, and sentiment changes.  
-3. **Operational Disruptions** — Delivery delays, partner churn, and city-level trends.  
-4. **Recovery Framework** — Segmentation of customers based on revenue-at-risk and re-acquisition potential.  
+1. **Crisis Diagnostics** – Structural, operational, and emotional failure points  
+2. **Customer Behaviour Shift** – How and why customers disengaged  
+3. **Geographic & Partner Insights** – Stability, risk zones, and partner reactions  
+4. **Recovery Blueprint** – Fix reliability, rebuild trust, and target customers with high ROI  
 
-**Goal:** Build a Power BI dashboard that allows business leaders to quickly diagnose the extent of demand erosion and target the right customers for recovery.
+**Goal:**  
+Enable leadership to understand the crisis in minutes and act with clarity —  
+**“Fix reliability → rebuild trust → reactivate the right customers.”**
+
+**Deliverables:**
+
+- **Executive Dashboard** with  
+  - City-level demand shock analysis  
+  - Delivery performance KPIs  
+  - Cancellation & SLA diagnostics  
+  - Sentiment and review insights  
+  - Segment-level revenue at risk  
+  - Restaurant performance patterns  
+  - Competitive benchmarking (Swiggy & Zomato)  
+
+- **Strategic Recovery Framework** covering  
+  - Operational repair blueprint  
+  - Brand trust recovery  
+  - Customer reactivation strategy  
+  - 6–12 week recovery targets  
 
 ---
 
 ## 🔢 Data Sources
 
-Primary datasets were simulated for analysis using anonymized FoodTech business data (2024–2025):
+Primary datasets came from the Codebasics challenge, along with structured logic and external research.
 
-- **Orders & Transactions:** Order IDs, order value, frequency, cuisine, and delivery time.  
-- **Customer Ratings & Sentiment:** Monthly average ratings and text sentiment scores.  
-- **Delivery Partner Data:** Employment type, SLA deviation, and order fulfillment.  
-- **Restaurant Partner Data:** Active vs churned restaurants, partner category (restaurant/cloud kitchen).  
-- **Competitor Benchmarks:** GOV, MTU, and transacting partner metrics for Swiggy and Zomato.  
-- **Acquisition Channels:** Organic vs paid user sign-ups by month.  
-
----
-
-## ✅ Solution: Dashboard & Analytics
-
-I designed a **Power BI dashboard** with interconnected views across five analytical lenses:
-
-| Visual Section | Purpose / Key Insight |
-|----------------|----------------------|
-| **Crisis Overview** | Compared pre- and post-crisis GOV, AOV, and MTU trends — revealing a 71% GOV drop driven primarily by user churn, not pricing. |
-| **Customer Segmentation** | Created recovery segments – *Fence Sitters*, *High-Value Recoverable*, *Light Users*, and *Unrecoverable* – visualized revenue-at-risk and recovery potential. |
-| **Operational Insights** | Analyzed SLA deviations showing an 18-min average delay across all delivery types (vs ~4.7 mins pre-crisis), disproving employment-type bias. |
-| **Partner Stability** | Showed restaurant churn (9.7%) had minimal impact on order composition, implying demand-side disruption over supply-side. |
-| **Acquisition Trends** | Highlighted the collapse of organic user growth (from 11K to <300 signups/month) and rising CAC driven by dependence on paid ads. |
+1. **Orders Data** – Subtotal, discounts, delivery fee, timestamps, cancellation status  
+2. **Customer Data** – Activity change %, value tier, order history  
+3. **Restaurant Data** – Partner type, cuisine, activity by phase  
+4. **Date Tables** – Pre-crisis vs crisis period segmentation  
+5. **External sources:**  
+   - Swiggy & Zomato **shareholder letters** (Food delivery: GOV, Monthly Transacting Users, Monthly Transacting Restaurant Partners)  
+   - Public reporting to contextualize crisis timeline  
 
 ---
 
-## 🌟 Impact: What the Analysis Revealed
+## 🚀 Solution: Dashboard & Analytics
 
-### 🧠 Key Insights
-- **Customer churn**, not restaurant or delivery issues, was the primary cause of decline.  
-- **Organic growth collapsed**, tripling acquisition costs.  
-- **High-value and loyal segments nearly disappeared**, indicating poor retention strategies.  
-- **Order value composition stayed stable**, suggesting no real “survival shift” — users didn’t downtrade, they simply left.  
+A Power BI dashboard was designed to walk leadership through the entire story — from shock to recovery.
 
-### 💼 Recovery Framework
-- **Fence Sitters:** Re-engage via loyalty bonuses and limited-time offers.  
-- **High-Value Recoverable:** Personalized outreach and early-access incentives.  
-- **Light Users:** Retarget through paid channels emphasizing trust and delivery reliability.  
-- **Unrecoverable:** Exclude from short-term retention budgets.  
+### Tools & Techniques
+- Power BI (DAX, bookmarks, field parameters, word cloud visual)  
+- Power Query  
+- DAX measures & segmentation logic  
 
 ---
 
-## 📊 Tools & Techniques
-- **Power BI** – Data modeling, DAX measures, interactive dashboards.  
-- **Excel** – Data preparation, validation, and scenario modeling.  
-- **Segmentation Logic** – Revenue-at-risk modeling and behavioral clustering.  
-- **Storytelling Design** – Interactive insights view with pre/post toggles for leadership review.  
+## 📊 Dashboard Structure & Insights
+
+| Dashboard Component | Key Insight |
+|---------------------|-------------|
+| **KPI Cards** | Orders & NOV dropped ~71%; AOV stable → customers didn’t downshift, they exited. |
+| **Delivery Performance Trends** | Delivery time rose 39.5 → 60 mins; SLA fell from 46% to 14%. |
+| **Cancellation Analysis** | Cancellations doubled, indicating operational instability. |
+| **City-Level Decline** | Declines clustered tightly (~69–72%) → platform-wide trust failure. |
+| **High-Volume Restaurant Decline** | Trusted partners dropped 85–92% → not supply-driven; trust-driven. |
+| **Customer Mix Stability** | Order distribution across cities, cuisine, partner type remained unchanged. |
+| **Sentiment Analysis** | Ratings collapsed from 4.5 → 2.5; cold food + soggy packaging dominated complaints. |
+| **Demand Shock Severity Matrix** | Delhi stable; Mumbai/Bengaluru recoverable; Pune/Hyderabad monitor; Kolkata/Ahmedabad high risk. |
+| **Customer Segmentation** | Fence Sitters + High-Value Recoverable = 80% of recovery ROI. |
+| **Competitive Benchmarking** | Swiggy & Zomato operate at massive scale (based on shareholder letters). |
+| **CAC Surge Analysis** | Organic acquisition collapsed; paid became dominant → higher CAC. |
+
+---
+
+## 🧠 Key Strategic Insights
+
+### **1. Operational breakdown triggered customer exit**  
+SLA failures → delays → cold food → dissatisfaction → churn.
+
+### **2. Emotional distrust drove abandonment**  
+Ratings crash showed this was not about convenience — it was a **trust breach**.
+
+### **3. High-value & loyal customers disengaged the hardest**  
+Their exit is the strongest indicator of brand damage.
+
+### **4. Crisis impacted every metro equally**  
+Declines were uniform — this was not a local issue.
+
+### **5. Supply-side changes did not drive loss**  
+Customer mix stayed stable; the issue was demand, not restaurant availability.
+
+---
+
+## 🛠 Strategic Recovery Blueprint
+
+### **A. Operational Repair**
+- Improve SLA accuracy & routing  
+- Sync kitchen prep with rider pickup  
+- Strengthen rider incentives  
+- Build proactive service recovery (auto credits, delay alerts)  
+- Upgrade packaging for temperature-sensitive items  
+
+### **B. Brand & Trust Recovery**
+- “Safe Kitchen” badges + hygiene audits  
+- Transparent reliability metrics in-app  
+- Hot & Fresh guarantee for key cuisines  
+- Trust-focused communication and city narratives  
+
+### **C. Customer Reactivation (Segment-Based)**
+
+| Segment | Why It Matters | Strategy |
+|--------|----------------|----------|
+| **Fence Sitters** | Largest revenue at risk | Light incentives + reliability messaging |
+| **High-Value Recoverable** | Highest ROI | Personal outreach, premium support, Safe Kitchen mapping |
+| **Light Users** | Low LTV | Automated, low-cost engagement |
+| **Unrecoverable** | Low ROI | No targeted spend |
+
+---
+
+## 🎯 6–12 Week Recovery Targets
+
+- SLA compliance: **13.9% → 40%+**  
+- Delivery time: **60+ mins → <45 mins**  
+- Ratings: **2.5 → 3.8+**  
+- Negative review keywords: **–40%**  
+- Fence sitter repeat rate: **+25%**  
+- High-value reactivation: **15–20%**  
+- Revenue uplift: **+40–50% from crisis baseline**
 
 ---
 
 ## 📌 Deliverables
-- **Crisis Impact Dashboard** – Visualized demand, delivery, and customer sentiment trends.  
-- **Customer Recovery Segmentation Report** – Revenue-at-risk, segment size, and re-acquisition playbook.  
-- **Operational Insights Summary** – SLA deviation and partner stability analysis.  
+
+- **Full Power BI dashboard**  
+- **Crisis diagnosis & insights**  
+- **Customer segmentation model**  
+- **Recovery strategy blueprint**  
+- **Executive presentation deck**
 
 ---
 
-## 🧩 Acknowledgements
-This project was inspired by real-world FoodTech analytics case studies and guided by frameworks learned during my Data Analytics Bootcamp.
+## 🙏 Acknowledgements
 
-Special thanks to:  
-- **Codebasics** 
+Thanks to **Codebasics** for the challenge framework and dataset.
 
 ---
 
-## 🎯 Conclusion
-This project demonstrates the ability to:
+## ✔️ Conclusion
 
-- Transform multi-dimensional business data into actionable customer insights.  
-- Build analytical frameworks that connect metrics to strategy (churn → recovery).  
-- Use **Power BI storytelling** to communicate complex findings clearly.  
+This project demonstrates my ability to:
+
+1. Diagnose operational, behavioural, and sentiment failures using data  
+2. Build an analytics story that explains *what happened* and *why*  
+3. Connect insights to strategic, ROI-driven recommendations  
+4. Design executive-ready dashboards and recovery frameworks  
 
 ---
 
-## 📬 Contact
-If you’d like to explore this project further or collaborate on analytics case studies:  
-📧 [Your Email]  
-🔗 [LinkedIn Profile]  
-💻 [GitHub Repository Link]
+### Contact  
+🔗 **LinkedIn:** https://www.linkedin.com/in/architkannan/  
+📧 **Email:** architkannan@zohomail.in  
