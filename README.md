@@ -5,7 +5,8 @@ This project was created as part of the
 [**Codebasics Resume Project Challenge**](https://codebasics.io/challenges/codebasics-resume-project-challenge/23) (2025).
 
 [**Live Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiZGQ2ZmU0YTMtOTk3My00NjVmLThlZjctOGYyOGE1ZGZiYmZlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)  
-[**Presentation Video**](YOUR_LINK_HERE)
+
+[**Presentation Video**](https://youtu.be/VdfjtVIYQHc)
 
 ---
 
