@@ -1,8 +1,7 @@
 # Crisis to Recovery: A Data-Led Strategy for QuickBite’s Post-Crisis Recovery  
 ***A Power BI project diagnosing a platform-wide breakdown and designing a data-driven recovery strategy for a food delivery startup.***
 
-This project was created as part of the  
-[**Codebasics Resume Project Challenge**](https://codebasics.io/challenges/codebasics-resume-project-challenge/23) (2025).
+This project was created as part of the [**Codebasics Resume Project Challenge**](https://codebasics.io/challenges/codebasics-resume-project-challenge/23) (2025).
 
 [**Live Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiZGQ2ZmU0YTMtOTk3My00NjVmLThlZjctOGYyOGE1ZGZiYmZlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)  
 
