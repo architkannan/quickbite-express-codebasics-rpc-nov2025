@@ -118,6 +118,8 @@ A Power BI dashboard was designed to walk leadership through the entire story �
 
 ## 🧠 Key Strategic Insights
 
+Click here to view or download the complete [**Executive Presentation Deck**](https://github.com/architkannan/quickbite-express-codebasics-rpc-nov2025/blob/main/QuickBite%20Express%20-%20Codebasics%20RPC%20Nov%202025.pdf) 
+
 ### **1. Operational breakdown triggered customer exit**  
 SLA failures → delays → cold food → dissatisfaction → churn.
 
